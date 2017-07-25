@@ -1,0 +1,1443 @@
+2017-07-21 15:55:54,467 ERROR 10488 [-/127.0.0.1/-/117ms GET /] nodejs.Template render error: (/Users/joe/svn/eggtrade/app/view/home/index.html)
+  Template render error: (/Users/joe/svn/eggtrade/app/view/home/head.html) [Line 28, Column 51]
+  unexpected token: }}
+  Template render error: (/Users/joe/svn/eggtrade/app/view/home/head.html) [Line 28, Column 51]
+  unexpected token: }}
+    at Object.exports.prettifyError (/Users/joe/svn/eggtrade/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/joe/svn/eggtrade/node_modules/nunjucks/src/environment.js:489:31
+    at eval (eval at _compile (/Users/joe/svn/eggtrade/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:14:11)
+    at eval (eval at _compile (/Users/joe/svn/eggtrade/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:66:12)
+    at /Users/joe/svn/eggtrade/node_modules/nunjucks/src/environment.js:23:23
+    at RawTask.call (/Users/joe/svn/eggtrade/node_modules/asap/asap.js:40:19)
+    at flush (/Users/joe/svn/eggtrade/node_modules/asap/raw.js:50:29)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'Template render error'
+pid: 10488
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 16:04:40,342 ERROR 10837 [-/127.0.0.1/-/18ms GET /] nodejs.TypeError: Cannot read property '_id' of undefined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:23:28)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10837
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 16:04:58,060 ERROR 10837 [-/127.0.0.1/-/21ms GET /] nodejs.TypeError: Cannot read property '_id' of undefined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:23:28)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10837
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 16:25:20,793 ERROR 11635 [-/127.0.0.1/-/27ms GET /] nodejs.TypeError: this.ctx.service.findOne is not a function
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:13:47)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11635
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 16:25:54,938 ERROR 11635 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: this.ctx.service.findOne is not a function
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:13:47)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11635
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 16:38:09,284 ERROR 11985 [-/127.0.0.1/-/67ms GET /] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'trade.wallet' doesn't exist
+    at Query.Sequence._packetToError (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at RDSClient.proto.select (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:100:21)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    sql: SELECT * FROM `wallet` WHERE `symbol` = 'KOA' AND `uid` = '59702f3e29fb3e12b4ce9ec2'
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlState: '42S02'
+index: 0
+name: 'ER_NO_SUCH_TABLEError'
+pid: 11985
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 16:51:58,034 ERROR 12359 [-/127.0.0.1/-/0ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+    --------------------
+    at Protocol._enqueue (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    sql: select now() as currentTime;
+code: 'PROTOCOL_SEQUENCE_TIMEOUT'
+fatal: true
+timeout: 10000
+name: 'PROTOCOL_SEQUENCE_TIMEOUTError'
+pid: 12359
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:01:29,522 ERROR 12663 [-/127.0.0.1/-/41ms GET /addwallet?uid=59702f3e29fb3e12b4ce9ec2&email=12@qq.com&wtype=krs&symbol=krs&amount=100&name=%E6%B0%B4%E6%99%B6%E5%B8%81] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'ename' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at RDSClient.proto.insert (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:141:21)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `wallet`(`uid`, `email`, `wtype`, `symbol`, `amount`, `name`) VALUES('59702f3e29fb3e12b4ce9ec2', '12@qq.com', 'krs', 'krs', '100', '水晶币')
+code: 'ER_NO_DEFAULT_FOR_FIELD'
+errno: 1364
+sqlState: 'HY000'
+index: 0
+name: 'ER_NO_DEFAULT_FOR_FIELDError'
+pid: 12663
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:01:50,969 ERROR 12663 [-/127.0.0.1/-/29ms GET /addwallet?uid=59702f3e29fb3e12b4ce9ec2&email=12@qq.com&wtype=krs&symbol=krs&amount=100&name=%E6%B0%B4%E6%99%B6%E5%B8%81] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'unit' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at RDSClient.proto.insert (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:141:21)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `wallet`(`uid`, `email`, `wtype`, `symbol`, `amount`, `name`) VALUES('59702f3e29fb3e12b4ce9ec2', '12@qq.com', 'krs', 'krs', '100', '水晶币')
+code: 'ER_NO_DEFAULT_FOR_FIELD'
+errno: 1364
+sqlState: 'HY000'
+index: 0
+name: 'ER_NO_DEFAULT_FOR_FIELDError'
+pid: 12663
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:34:28,932 ERROR 13765 [-/127.0.0.1/-/147ms GET /] nodejs.ReferenceError: wallet is not defined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:25:10)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 13765
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:36:08,459 ERROR 13826 [-/127.0.0.1/-/61ms GET /] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `uid` = '59702f3e29fb3e12b4ce9ec2' LIMIT 0, 1' at line 1
+    at Query.Sequence._packetToError (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at RDSClient.proto.select (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:100:21)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    sql: SELECT * FROM `wallet` WHERE `where` = `symbol` = 'KRS', `uid` = '59702f3e29fb3e12b4ce9ec2' LIMIT 0, 1
+code: 'ER_PARSE_ERROR'
+errno: 1064
+sqlState: '42000'
+index: 0
+name: 'ER_PARSE_ERRORError'
+pid: 13826
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:36:36,363 ERROR 13845 [-/127.0.0.1/-/61ms GET /] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `uid` = '59702f3e29fb3e12b4ce9ec2' LIMIT 0, 1' at line 1
+    at Query.Sequence._packetToError (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at RDSClient.proto.select (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:100:21)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    sql: SELECT * FROM `wallet` WHERE `where` = `symbol` = 'KRS', `uid` = '59702f3e29fb3e12b4ce9ec2' LIMIT 0, 1
+code: 'ER_PARSE_ERROR'
+errno: 1064
+sqlState: '42000'
+index: 0
+name: 'ER_PARSE_ERRORError'
+pid: 13845
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:37:21,755 ERROR 13845 [-/127.0.0.1/-/45ms GET /] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `uid` = '59702f3e29fb3e12b4ce9ec2' LIMIT 0, 1' at line 1
+    at Query.Sequence._packetToError (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at RDSClient.proto.select (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:100:21)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    sql: SELECT * FROM `wallet` WHERE `where` = `symbol` = 'KRS', `uid` = '59702f3e29fb3e12b4ce9ec2' LIMIT 0, 1
+code: 'ER_PARSE_ERROR'
+errno: 1064
+sqlState: '42000'
+index: 0
+name: 'ER_PARSE_ERRORError'
+pid: 13845
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:44:52,196 ERROR 14125 [-/127.0.0.1/-/109ms GET /] nodejs.ReferenceError: kk is not defined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:26:7)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 14125
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:44:53,402 ERROR 14125 [-/127.0.0.1/-/56ms GET /] nodejs.ReferenceError: kk is not defined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:26:7)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 14125
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 17:47:22,513 ERROR 14224 [-/127.0.0.1/-/87ms GET /] nodejs.ReferenceError: kk is not defined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:33:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 14224
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 18:00:49,873 ERROR 14704 [-/127.0.0.1/-/41ms GET /?symbol=KOA] nodejs.ReferenceError: csymbols is not defined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:18:12)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 14704
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 18:01:00,042 ERROR 14704 [-/127.0.0.1/-/8ms GET /?symbol=KOA] nodejs.ReferenceError: csymbols is not defined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:18:12)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 14704
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 21:11:47,095 ERROR 14381 nodejs.ClusterClientNoResponseError: client no response in 1156642ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/joe/svn/eggtrade/node_modules/cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 14381
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 22:59:58,227 ERROR 14381 nodejs.ClusterClientNoResponseError: client no response in 6490830ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/joe/svn/eggtrade/node_modules/cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 14381
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-21 23:10:47,913 ERROR 14381 nodejs.ClusterClientNoResponseError: client no response in 629359ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/joe/svn/eggtrade/node_modules/cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 14381
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-22 01:00:11,087 ERROR 14381 nodejs.ClusterClientNoResponseError: client no response in 6463522ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/joe/svn/eggtrade/node_modules/cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 14381
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-22 02:48:24,121 ERROR 14381 nodejs.ClusterClientNoResponseError: client no response in 6472766ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/joe/svn/eggtrade/node_modules/cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 14381
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-22 02:59:17,528 ERROR 14381 nodejs.ClusterClientNoResponseError: client no response in 633374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/joe/svn/eggtrade/node_modules/cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 14381
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-22 06:12:05,808 ERROR 14381 nodejs.ClusterClientNoResponseError: client no response in 11567899ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/joe/svn/eggtrade/node_modules/cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 14381
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-22 12:41:32,499 ERROR 14381 nodejs.ClusterClientNoResponseError: client no response in 23346531ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/joe/svn/eggtrade/node_modules/cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 14381
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-22 18:19:58,731 ERROR 1983 [-/127.0.0.1/-/34ms GET /] nodejs.TypeError: Cannot read property '_id' of undefined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:22:93)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 1983
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-24 17:02:01,009 ERROR 24251 [-/127.0.0.1/-/117ms GET /] nodejs.TypeError: Cannot read property '_id' of undefined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:22:93)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 24251
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 10:35:56,997 ERROR 2462 [-/127.0.0.1/-/9ms GET /] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:8:20)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 2462
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 10:50:42,732 ERROR 3012 [-/127.0.0.1/-/24ms GET /] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.index (/Users/joe/svn/eggtrade/app/controller/home.js:7:18)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 3012
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 11:27:52,111 ERROR 4527 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'emit' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:8:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 4527
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 11:27:52,804 ERROR 4527 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'emit' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:8:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 4527
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 11:28:16,410 ERROR 4527 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'emit' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:8:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 4527
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 11:33:27,135 ERROR 4729 [-/127.0.0.1/-/6ms GET /buy] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.buy (/Users/joe/svn/eggtrade/app/controller/home.js:58:32)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 4729
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 11:41:56,998 ERROR 5085 [-/127.0.0.1/-/10ms GET /buy] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.buy (/Users/joe/svn/eggtrade/app/controller/home.js:58:35)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 5085
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 11:48:16,839 ERROR 5339 [-/127.0.0.1/-/3ms GET /buy] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.buy (/Users/joe/svn/eggtrade/app/controller/home.js:60:23)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 5339
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 12:00:58,307 ERROR 5828 [-/127.0.0.1/-/67ms GET /buy] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.buy (/Users/joe/svn/eggtrade/app/controller/home.js:62:23)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 5828
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 12:29:51,932 ERROR 6859 [-/127.0.0.1/-/1ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:338:8)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+    --------------------
+    at Protocol._enqueue (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/joe/svn/eggtrade/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/joe/svn/eggtrade/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/joe/svn/eggtrade/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/joe/svn/eggtrade/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/joe/svn/eggtrade/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/joe/svn/eggtrade/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    sql: select now() as currentTime;
+errorno: 'ETIMEDOUT'
+code: 'ETIMEDOUT'
+syscall: 'connect'
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 6859
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 12:30:38,850 ERROR 6901 nodejs.ReferenceError: [egg-socket.io] connection middleware execute error: thorow is not defined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:14:3)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 6901
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 12:30:39,142 ERROR 6901 nodejs.ReferenceError: [egg-socket.io] connection middleware execute error: thorow is not defined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:14:3)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 6901
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:22:30,745 ERROR 10461 [-/127.0.0.1/-/4ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:10:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10461
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:22:32,103 ERROR 10461 [-/127.0.0.1/-/4ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:10:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10461
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:22:33,085 ERROR 10461 [-/127.0.0.1/-/2ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:10:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10461
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:22:33,598 ERROR 10461 [-/127.0.0.1/-/1ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:10:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10461
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:22:34,111 ERROR 10461 [-/127.0.0.1/-/1ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:10:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10461
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:23:03,514 ERROR 10461 [-/127.0.0.1/-/2ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:10:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10461
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:23:06,230 ERROR 10461 [-/127.0.0.1/-/1ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:10:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 10461
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:23:58,109 ERROR 12796 [-/127.0.0.1/-/27ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:12:26)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 12796
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:28:33,594 ERROR 12962 [-/127.0.0.1/-/32ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:10:25)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 12962
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:29:00,180 ERROR 12983 [-/127.0.0.1/-/16ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:8:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 12983
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:29:01,598 ERROR 12983 [-/127.0.0.1/-/3ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:8:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 12983
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:29:03,206 ERROR 12983 [-/127.0.0.1/-/2ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:8:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 12983
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 15:29:04,085 ERROR 12983 [-/127.0.0.1/-/2ms GET /logout] nodejs.TypeError: Cannot read property 'user' of null
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/middleware/auth.js:8:24)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 12983
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:32:08,949 ERROR 15269 [-/127.0.0.1/-/9ms POST /buy] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.buy (/Users/joe/svn/eggtrade/app/controller/home.js:60:18)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 15269
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:41:25,651 ERROR 15687 [-/127.0.0.1/-/37ms GET /buy] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.buy (/Users/joe/svn/eggtrade/app/controller/home.js:64:18)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 15687
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:41:41,071 ERROR 15702 [-/127.0.0.1/-/22ms GET /buy] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at HomeController.buy (/Users/joe/svn/eggtrade/app/controller/home.js:64:18)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+    at next (/Users/joe/svn/eggtrade/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:69:7)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:118:63)
+
+pid: 15702
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:03,262 ERROR 16374 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16374
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:03,946 ERROR 16374 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16374
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:03,950 ERROR 16374 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16374
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:11,137 ERROR 16374 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16374
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:11,198 ERROR 16374 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16374
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:54,190 ERROR 16416 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16416
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:54,265 ERROR 16416 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16416
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:57,133 ERROR 16416 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16416
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:57:57,208 ERROR 16416 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16416
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:58:00,256 ERROR 16416 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16416
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:59:22,408 ERROR 16416 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16416
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 16:59:22,475 ERROR 16416 nodejs.TypeError: [egg-socket.io] connection middleware execute error: Cannot read property 'throw' of undefined
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:21)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+    at emitOne (events.js:96:13)
+
+pid: 16416
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:02:51,382 ERROR 16616 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16616
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:02:51,438 ERROR 16616 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16616
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:02:52,405 ERROR 16616 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16616
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:02:53,482 ERROR 16616 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16616
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:02:53,616 ERROR 16616 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16616
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:02:56,018 ERROR 16616 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16616
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:02:56,113 ERROR 16616 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16616
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:03:23,984 ERROR 16640 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16640
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:03:24,243 ERROR 16640 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16640
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:03:24,949 ERROR 16640 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16640
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:03:28,617 ERROR 16642 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16642
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:03:28,678 ERROR 16642 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16642
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 17:03:30,163 ERROR 16642 nodejs.UnsupportedMediaTypeError: [egg-socket.io] connection middleware execute error: images only!
+    at Object.throw (/Users/joe/svn/eggtrade/node_modules/koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/app/io/middleware/auth.js:13:23)
+    at next (native)
+    at Object.<anonymous> (/Users/joe/svn/eggtrade/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade/node_modules/co/index.js:65:19)
+    at /Users/joe/svn/eggtrade/node_modules/co/index.js:54:5
+    at Object.co (/Users/joe/svn/eggtrade/node_modules/co/index.js:50:10)
+    at Object.createPromise (/Users/joe/svn/eggtrade/node_modules/co/index.js:30:15)
+    at module.exports (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/connectionMiddlewareInit.js:26:21)
+    at Array.nsp.use (/Users/joe/svn/eggtrade/node_modules/egg-socket.io/lib/io.js:81:7)
+    at run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:123:11)
+    at Namespace.run (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:135:3)
+    at Namespace.add (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/namespace.js:163:8)
+    at Client.connect (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/client.js:76:20)
+    at Server.onconnection (/Users/joe/svn/eggtrade/node_modules/socket.io/lib/index.js:398:10)
+message: '[egg-socket.io] connection middleware execute error: images only!'
+pid: 16642
+hostname: zouyongliangdeMacBook-Pro.local
+
+2017-07-25 18:06:12,710 ERROR 19011 [-/127.0.0.1/-/20ms GET /] nodejs.AssertionError: Can't find viewEngine for /Users/joe/svn/eggtrade1/app/view/home/index.html
+    at ContextView.[contextView#render] (/Users/joe/svn/eggtrade1/node_modules/egg-view/lib/context_view.js:71:5)
+    at next (native)
+    at onFulfilled (/Users/joe/svn/eggtrade1/node_modules/co/index.js:65:19)
+name: 'AssertionError'
+actual: ''
+expected: true
+operator: '=='
+message: 'Can\'t find viewEngine for /Users/joe/svn/eggtrade1/app/view/home/index.html'
+generatedMessage: false
+pid: 19011
+hostname: zouyongliangdeMacBook-Pro.local
+

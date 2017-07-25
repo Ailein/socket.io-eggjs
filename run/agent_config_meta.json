@@ -1,0 +1,231 @@
+{
+  "keys": "/Users/joe/svn/eggtrade1/config/config.default.js",
+  "session": {
+    "key": "/Users/joe/svn/eggtrade1/config/config.default.js",
+    "maxAge": "/Users/joe/svn/eggtrade1/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/joe/svn/eggtrade1/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/joe/svn/eggtrade1/node_modules/egg-session/config/config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "/Users/joe/svn/eggtrade1/config/config.default.js",
+    "mapping": {
+      ".html": "/Users/joe/svn/eggtrade1/config/config.default.js"
+    },
+    "root": "/Users/joe/svn/eggtrade1/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/joe/svn/eggtrade1/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/joe/svn/eggtrade1/node_modules/egg-view/config/config.default.js"
+  },
+  "io": {
+    "init": "/Users/joe/svn/eggtrade1/config/config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/Users/joe/svn/eggtrade1/config/config.default.js",
+        "packetMiddleware": "/Users/joe/svn/eggtrade1/config/config.default.js"
+      }
+    }
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/joe/svn/eggtrade1/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/joe/svn/eggtrade1/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/joe/svn/eggtrade1/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/joe/svn/eggtrade1/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/joe/svn/eggtrade1/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/joe/svn/eggtrade1/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/joe/svn/eggtrade1/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/joe/svn/eggtrade1/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/joe/svn/eggtrade1/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/joe/svn/eggtrade1/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/joe/svn/eggtrade1/node_modules/egg-multipart/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/joe/svn/eggtrade1/node_modules/egg-security/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/joe/svn/eggtrade1/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/joe/svn/eggtrade1/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/joe/svn/eggtrade1/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/joe/svn/eggtrade1/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/joe/svn/eggtrade1/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/joe/svn/eggtrade1/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/joe/svn/eggtrade1/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/joe/svn/eggtrade1/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/joe/svn/eggtrade1/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/joe/svn/eggtrade1/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/joe/svn/eggtrade1/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/joe/svn/eggtrade1/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/joe/svn/eggtrade1/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/joe/svn/eggtrade1/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/joe/svn/eggtrade1/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/joe/svn/eggtrade1/node_modules/egg-static/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/joe/svn/eggtrade1/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/joe/svn/eggtrade1/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/joe/svn/eggtrade1/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/joe/svn/eggtrade1/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/joe/svn/eggtrade1/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/joe/svn/eggtrade1/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/joe/svn/eggtrade1/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/joe/svn/eggtrade1/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "name": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "version": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "description": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "main": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "dev": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "migrate:new": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "migrate:up": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "migrate:down": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "license": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "utility": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "strict": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "depth": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "env": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "level": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.local.js"
+    }
+  },
+  "httpclient": {
+    "keepAlive": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "freeSocketKeepAliveTimeout": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "timeout": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "maxSockets": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "maxFreeSockets": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/joe/svn/eggtrade1/node_modules/egg/config/config.default.js"
+}

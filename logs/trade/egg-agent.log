@@ -1,0 +1,738 @@
+2017-07-21 14:24:44,541 INFO 7432 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 14:24:44,846 INFO 7432 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-21 14:24:44,880 INFO 7432 [egg-mongoose] starting...
+2017-07-21 14:24:44,895 INFO 7432 [egg-watcher:agent] watcher start success
+2017-07-21 14:24:44,914 INFO 7432 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-21 14:24:44,916 INFO 7432 [egg-mongoose] start successfully and server status is ok
+2017-07-21 14:52:37,281 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 14:56:58,620 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol rename
+2017-07-21 14:57:04,373 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol.js rename
+2017-07-21 14:57:06,060 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol.js rename
+2017-07-21 14:57:11,229 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol.js rename
+2017-07-21 14:57:36,768 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol.js change
+2017-07-21 14:57:39,056 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol.js change
+2017-07-21 14:57:39,309 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol.js change
+2017-07-21 14:57:58,051 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol.js change
+2017-07-21 14:58:08,988 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/model/symbol.js change
+2017-07-21 15:01:43,519 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 15:03:37,773 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:03:41,265 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:03:46,834 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:03:51,017 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:04:10,288 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:05:27,743 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:05:38,204 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:05:41,342 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:06:12,295 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js rename
+2017-07-21 15:06:18,844 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:06:26,546 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:06:44,109 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:06:52,561 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:07:18,790 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:07:19,997 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:07:29,635 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:07:39,288 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:07:41,799 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:08:30,260 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:08:32,249 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:09:27,417 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:09:41,129 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:09:55,091 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:09:59,836 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:10:05,755 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:12:37,760 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 15:13:29,286 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:13:32,926 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:13:36,766 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:13:52,891 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 15:14:13,198 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:14:33,245 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:14:34,907 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:14:37,122 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:15:18,784 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:16:27,610 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:16:36,287 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:16:41,693 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:16:46,570 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:16:49,170 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:17:24,378 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:17:33,192 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:18:22,858 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:18:24,111 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:18:24,330 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:21:07,848 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:21:21,324 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:21:26,245 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:21:36,499 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:21:37,995 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:21:38,885 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:22:20,352 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:22:24,750 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:22:29,661 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:22:46,505 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:22:49,349 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:22:51,836 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:22:53,775 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:23:23,701 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:23:34,827 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:23:37,906 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:23:51,517 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:24:58,288 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 15:25:08,272 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:25:18,690 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:25:56,195 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:26:06,706 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:26:10,718 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:26:37,501 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:26:39,424 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:26:45,617 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:26:46,301 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:27:15,540 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:27:33,910 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:27:34,207 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:27:45,042 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:27:52,512 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:27:53,754 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:27:57,960 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:28:56,186 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:28:57,727 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:29:36,829 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:29:37,387 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:29:38,348 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:29:39,700 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:29:41,222 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:29:46,779 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:29:51,342 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:29:53,495 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:30:12,871 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:30:36,809 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:30:38,086 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:30:40,030 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:30:42,899 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:30:56,638 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:31:00,443 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:31:09,414 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:39:00,276 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:39:03,536 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:39:24,542 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:39:52,859 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:40:02,476 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:40:37,961 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:55:32,773 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:57:08,291 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:57:41,623 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:57:46,868 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:58:11,976 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:58:29,289 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 15:58:46,097 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:01:05,542 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:01:13,618 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:03:30,031 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 16:03:38,231 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 16:03:40,582 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 16:03:58,262 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 16:04:06,676 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 16:04:08,411 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 16:04:08,981 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 16:04:15,438 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 16:04:25,389 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 16:04:32,659 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 16:04:33,585 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/login.js change
+2017-07-21 16:05:16,172 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:05:22,716 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:06:31,007 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:06:53,074 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:07:02,657 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:07:35,328 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:07:37,230 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:07:46,197 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:07:47,234 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:07:51,360 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:07:53,840 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:07:59,166 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:08:00,632 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 16:08:45,856 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:08:46,780 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:08:54,336 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:09:00,524 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:09:14,928 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:09:18,788 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:09:19,991 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:09:33,126 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:09:33,857 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:13:04,722 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 16:13:09,819 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 16:13:17,002 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 16:13:33,077 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:15:16,302 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:15:20,758 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:15:27,750 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-21 16:15:33,078 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:22:44,736 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:23:54,549 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:23:55,186 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:23:56,213 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:24:24,181 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:24:35,733 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:24:41,246 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:25:17,420 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:25:54,646 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:26:18,132 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:26:42,388 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:27:28,281 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:27:46,841 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:27:59,157 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:28:13,148 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:28:32,372 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:28:38,772 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet rename
+2017-07-21 16:28:43,844 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js rename
+2017-07-21 16:29:05,369 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js rename
+2017-07-21 16:29:09,539 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:29:17,373 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:29:28,293 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:29:32,809 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:29:37,104 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:29:38,773 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:29:41,826 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:29:47,047 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:29:48,615 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:30:02,205 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:30:04,440 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:30:18,366 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:34:09,950 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:34:11,612 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:35:40,291 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:35:47,039 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:35:52,319 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:35:56,040 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:35:57,168 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:36:15,566 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:36:25,836 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:36:31,312 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:37:09,287 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:37:12,204 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:37:17,463 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:37:30,078 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:37:32,487 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:37:42,778 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:38:05,309 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:38:32,788 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.local.js change
+2017-07-21 16:38:34,222 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-21 16:39:09,203 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:39:35,010 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:39:47,543 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:41:31,872 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:41:42,592 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:42:17,311 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:42:23,305 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:42:27,437 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:42:34,432 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:43:12,685 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:43:16,437 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:43:20,385 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:43:22,493 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:43:23,905 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:43:35,084 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:43:37,007 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:43:37,820 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:43:58,176 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:44:35,400 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:45:30,817 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:45:36,338 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:45:38,279 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:45:43,556 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:45:51,469 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:46:31,837 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:48:54,397 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:49:23,555 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:49:44,789 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:49:45,266 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:49:51,833 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:49:54,934 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:50:33,867 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:50:55,322 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:50:55,962 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:51:03,111 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:51:06,655 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:51:15,843 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:51:37,516 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:51:44,590 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:51:47,106 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:52:05,412 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:52:45,633 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:57:26,638 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:58:13,526 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:58:35,208 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:59:03,846 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:59:26,136 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 16:59:48,288 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 16:59:54,126 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:01:21,964 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:01:27,060 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:05:18,754 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:05:47,754 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:06:04,981 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:08:58,093 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:09:10,784 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:09:12,677 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:09:27,759 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:10:00,701 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:25:17,044 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:28:31,701 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:28:36,223 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:28:45,759 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:29:35,478 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:31:03,648 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-21 17:31:24,140 WARN 7432 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:31:49,482 INFO 13666 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 17:31:49,763 INFO 13666 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-21 17:31:49,806 INFO 13666 [egg-mongoose] starting...
+2017-07-21 17:31:49,818 INFO 13666 [egg-watcher:agent] watcher start success
+2017-07-21 17:31:49,835 INFO 13666 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-21 17:31:49,837 INFO 13666 [egg-mongoose] start successfully and server status is ok
+2017-07-21 17:32:22,843 INFO 13685 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 17:32:23,110 INFO 13685 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-21 17:32:23,146 INFO 13685 [egg-mongoose] starting...
+2017-07-21 17:32:23,154 INFO 13685 [egg-watcher:agent] watcher start success
+2017-07-21 17:32:23,172 INFO 13685 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-21 17:32:23,174 INFO 13685 [egg-mongoose] start successfully and server status is ok
+2017-07-21 17:32:42,011 INFO 13704 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 17:32:42,287 INFO 13704 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-21 17:32:42,327 INFO 13704 [egg-mongoose] starting...
+2017-07-21 17:32:42,335 INFO 13704 [egg-watcher:agent] watcher start success
+2017-07-21 17:32:42,353 INFO 13704 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-21 17:32:42,355 INFO 13704 [egg-mongoose] start successfully and server status is ok
+2017-07-21 17:34:25,662 INFO 13764 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 17:34:25,927 INFO 13764 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-21 17:34:25,965 INFO 13764 [egg-mongoose] starting...
+2017-07-21 17:34:25,973 INFO 13764 [egg-watcher:agent] watcher start success
+2017-07-21 17:34:25,991 INFO 13764 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-21 17:34:25,993 INFO 13764 [egg-mongoose] start successfully and server status is ok
+2017-07-21 17:34:38,379 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:34:52,586 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:34:56,870 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:35:00,071 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:35:24,915 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:36:06,770 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:36:30,534 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:36:30,814 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:36:32,130 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:36:35,116 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:37:20,880 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:37:32,305 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:37:34,421 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:38:46,841 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:39:07,119 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:39:38,791 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:39:56,545 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:42:16,556 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 17:42:19,202 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/symbol.js change
+2017-07-21 17:42:40,290 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:43:56,433 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:44:16,573 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:44:17,164 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:44:24,684 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/service/wallet.js change
+2017-07-21 17:44:48,732 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:44:50,230 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:44:56,933 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:07,842 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:10,489 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:13,217 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:13,420 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:25,965 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:26,458 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:54,924 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:57,537 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:45:58,267 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:46:40,010 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:46:45,279 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:46:46,141 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:46:46,465 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:46:50,055 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:46:54,772 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:46:55,416 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:46:58,641 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:47:02,085 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:47:02,286 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:47:03,323 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:47:07,075 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:47:10,778 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:47:29,101 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:47:39,847 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:47:41,122 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:48:46,304 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:48:56,760 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:49:04,979 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:49:16,797 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:49:44,862 WARN 13764 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:49:51,422 INFO 14331 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 17:49:51,742 INFO 14331 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-21 17:49:51,781 INFO 14331 [egg-mongoose] starting...
+2017-07-21 17:49:51,791 INFO 14331 [egg-watcher:agent] watcher start success
+2017-07-21 17:49:51,809 INFO 14331 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-21 17:49:51,811 INFO 14331 [egg-mongoose] start successfully and server status is ok
+2017-07-21 17:50:10,673 INFO 14347 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 17:50:10,937 INFO 14347 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-21 17:50:10,974 INFO 14347 [egg-mongoose] starting...
+2017-07-21 17:50:10,982 INFO 14347 [egg-watcher:agent] watcher start success
+2017-07-21 17:50:10,999 INFO 14347 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-21 17:50:11,001 INFO 14347 [egg-mongoose] start successfully and server status is ok
+2017-07-21 17:50:59,513 INFO 14381 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 17:50:59,790 INFO 14381 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-21 17:50:59,830 INFO 14381 [egg-mongoose] starting...
+2017-07-21 17:50:59,838 INFO 14381 [egg-watcher:agent] watcher start success
+2017-07-21 17:50:59,856 INFO 14381 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-21 17:50:59,857 INFO 14381 [egg-mongoose] start successfully and server status is ok
+2017-07-21 17:51:13,331 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:53:36,697 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:53:37,881 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:53:44,839 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 17:54:57,437 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 18:00:11,083 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 18:00:19,353 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 18:00:22,335 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 18:00:24,807 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 18:00:59,291 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 18:01:13,549 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-21 18:01:35,364 WARN 14381 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-22 18:19:52,049 INFO 1982 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-22 18:19:52,474 INFO 1982 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-22 18:19:52,511 INFO 1982 [egg-mongoose] starting...
+2017-07-22 18:19:52,525 INFO 1982 [egg-watcher:agent] watcher start success
+2017-07-22 18:19:52,584 INFO 1982 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-22 18:19:52,585 INFO 1982 [egg-mongoose] start successfully and server status is ok
+2017-07-24 17:01:45,080 INFO 24249 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-24 17:01:45,680 INFO 24249 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-24 17:01:45,742 INFO 24249 [egg-mongoose] starting...
+2017-07-24 17:01:45,757 INFO 24249 [egg-watcher:agent] watcher start success
+2017-07-24 17:01:46,264 INFO 24249 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-24 17:01:46,266 INFO 24249 [egg-mongoose] start successfully and server status is ok
+2017-07-24 17:03:28,861 WARN 24249 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-24 17:03:31,291 WARN 24249 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-24 17:05:11,029 WARN 24249 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-24 17:07:17,173 WARN 24249 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-24 17:07:29,692 WARN 24249 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-24 17:07:47,180 WARN 24249 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-24 17:07:51,355 WARN 24249 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:06:10,648 INFO 993 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 10:06:11,029 INFO 993 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 10:06:11,073 INFO 993 [egg-mongoose] starting...
+2017-07-25 10:06:11,085 INFO 993 [egg-watcher:agent] watcher start success
+2017-07-25 10:06:11,104 INFO 993 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 10:06:11,105 INFO 993 [egg-mongoose] start successfully and server status is ok
+2017-07-25 10:06:34,861 INFO 1023 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 10:06:35,202 INFO 1023 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 10:06:35,255 INFO 1023 [egg-mongoose] starting...
+2017-07-25 10:06:35,264 INFO 1023 [egg-watcher:agent] watcher start success
+2017-07-25 10:06:35,288 INFO 1023 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 10:06:35,290 INFO 1023 [egg-mongoose] start successfully and server status is ok
+2017-07-25 10:28:59,137 INFO 2192 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 10:28:59,419 INFO 2192 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 10:28:59,462 INFO 2192 [egg-mongoose] starting...
+2017-07-25 10:28:59,471 INFO 2192 [egg-watcher:agent] watcher start success
+2017-07-25 10:28:59,490 INFO 2192 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 10:28:59,491 INFO 2192 [egg-mongoose] start successfully and server status is ok
+2017-07-25 10:34:51,147 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:35:47,068 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:35:50,270 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:36:16,028 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:37:32,498 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:38:34,249 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:38:42,665 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:38:51,657 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:50:08,498 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:50:39,083 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:50:58,999 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:51:09,553 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:51:32,218 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:51:37,825 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:51:38,053 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:51:38,286 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:51:52,978 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:54:04,397 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/socket.io.js rename
+2017-07-25 10:54:09,160 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/socket.io.js rename
+2017-07-25 10:56:52,723 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:56:55,911 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 10:59:43,355 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 10:59:54,333 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 10:59:54,552 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 11:01:17,465 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/plugin.js change
+2017-07-25 11:01:30,345 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/plugin.js change
+2017-07-25 11:02:15,159 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 11:04:21,106 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 11:05:13,962 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 11:05:33,278 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:05:44,939 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:06:31,571 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 11:07:00,328 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 11:15:13,377 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 11:15:56,485 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js rename
+2017-07-25 11:16:04,204 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js rename
+2017-07-25 11:16:27,295 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 11:17:09,308 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 11:17:56,760 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 11:19:09,655 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 11:27:49,006 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 11:30:32,498 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 11:32:23,738 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:33:08,163 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 11:34:01,002 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:34:28,540 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:37:06,738 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 11:38:05,957 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:40:34,576 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:40:43,765 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:41:06,432 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:41:12,309 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:41:12,537 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:41:45,896 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:42:05,005 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:44:04,308 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:44:05,886 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:47:34,559 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:47:37,646 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:47:37,853 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:47:38,080 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:48:43,179 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:48:54,554 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:53:08,183 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 11:58:58,522 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 11:59:39,873 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:00:29,520 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:01:10,995 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:02:21,389 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:02:23,882 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:02:29,463 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:02:30,222 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:02:31,889 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:03:44,932 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:10:16,509 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:10:38,035 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:20:22,214 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:20:28,075 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:20:41,043 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:20:56,128 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:20:58,397 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:21:40,777 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:22:35,439 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:23:04,181 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:25:00,858 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:27:39,221 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:28:04,390 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:28:20,903 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:28:25,340 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:29:02,292 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:29:17,462 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:29:27,201 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 12:29:40,444 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:30:24,737 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:30:36,450 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:30:38,407 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:31:32,292 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:31:52,707 WARN 2192 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:32:09,881 INFO 6958 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 12:32:10,165 INFO 6958 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 12:32:10,208 INFO 6958 [egg-mongoose] starting...
+2017-07-25 12:32:10,220 INFO 6958 [egg-watcher:agent] watcher start success
+2017-07-25 12:32:10,238 INFO 6958 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 12:32:10,239 INFO 6958 [egg-mongoose] start successfully and server status is ok
+2017-07-25 12:32:25,716 INFO 6971 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 12:32:26,204 INFO 6971 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 12:32:26,263 INFO 6971 [egg-mongoose] starting...
+2017-07-25 12:32:26,279 INFO 6971 [egg-watcher:agent] watcher start success
+2017-07-25 12:32:26,318 INFO 6971 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 12:32:26,322 INFO 6971 [egg-mongoose] start successfully and server status is ok
+2017-07-25 12:34:08,556 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 12:34:47,702 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 14:02:23,854 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 14:05:50,397 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 14:05:52,475 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 14:05:54,215 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 14:06:57,917 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 14:07:00,976 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 14:11:22,047 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth rename
+2017-07-25 14:11:31,990 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js rename
+2017-07-25 14:11:39,509 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js rename
+2017-07-25 14:12:50,821 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 14:13:10,715 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 14:13:11,839 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:13:12,753 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:13:22,090 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 14:13:28,172 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:14:22,243 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:15:46,846 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 14:15:48,076 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 14:15:49,688 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 14:15:57,733 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 14:15:59,400 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 14:16:07,506 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 14:16:34,667 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:16:42,070 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:16:45,157 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:16:59,882 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:17:16,112 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:17:31,904 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:18:36,951 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 14:18:50,316 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 15:23:33,588 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:23:37,855 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:23:53,414 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:23:57,086 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:25:21,968 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:25:34,889 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:25:46,561 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:25:52,892 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:26:04,281 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:26:32,885 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:26:35,477 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:26:41,472 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:26:46,771 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:26:49,169 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:26:49,385 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:05,260 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:06,157 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:08,705 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:24,089 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:25,676 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:30,202 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:33,435 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:49,678 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:27:51,068 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:28:29,388 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:28:32,089 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:28:46,678 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:28:50,706 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:28:57,729 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:29:08,563 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:29:10,353 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:29:23,591 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 15:29:43,143 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/config/config.default.js change
+2017-07-25 16:05:04,214 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/middleware/auth.js change
+2017-07-25 16:22:37,933 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:23:22,912 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:25:05,264 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:25:42,532 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:29:50,003 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:30:43,655 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:31:25,907 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:31:47,141 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:31:58,532 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:32:21,377 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:32:23,912 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:33:13,096 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:33:59,077 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 16:34:01,843 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 16:34:03,501 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 16:34:20,786 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:34:58,204 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 16:37:53,614 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:38:21,016 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:40:09,585 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:40:42,194 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:41:19,790 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:41:35,354 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:41:47,535 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:41:56,815 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:42:36,310 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 16:42:59,479 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:43:22,288 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:43:24,365 WARN 6971 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:43:39,899 INFO 15808 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 16:43:40,208 INFO 15808 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 16:43:40,250 INFO 15808 [egg-mongoose] starting...
+2017-07-25 16:43:40,262 INFO 15808 [egg-watcher:agent] watcher start success
+2017-07-25 16:43:40,281 INFO 15808 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 16:43:40,283 INFO 15808 [egg-mongoose] start successfully and server status is ok
+2017-07-25 16:44:11,745 WARN 15808 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:45:04,663 WARN 15808 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:46:34,894 INFO 15948 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 16:46:35,473 INFO 15948 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 16:46:35,520 INFO 15948 [egg-mongoose] starting...
+2017-07-25 16:46:35,531 INFO 15948 [egg-watcher:agent] watcher start success
+2017-07-25 16:46:35,549 INFO 15948 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 16:46:35,551 INFO 15948 [egg-mongoose] start successfully and server status is ok
+2017-07-25 16:47:07,090 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:47:58,768 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:48:39,031 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:51:12,242 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:51:45,720 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:52:05,114 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:53:00,404 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:53:04,421 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:53:33,166 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:55:02,198 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:56:05,244 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:56:20,888 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:56:22,990 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:56:24,670 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:57:00,591 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:57:38,548 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 16:57:51,075 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:00:41,779 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:02:48,954 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:03:21,373 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:03:25,948 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:03:33,428 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:05:51,360 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:06:19,319 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:06:26,297 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:06:36,181 WARN 15948 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:06:47,430 INFO 16769 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 17:06:47,707 INFO 16769 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 17:06:47,747 INFO 16769 [egg-mongoose] starting...
+2017-07-25 17:06:47,759 INFO 16769 [egg-watcher:agent] watcher start success
+2017-07-25 17:06:47,776 INFO 16769 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 17:06:47,777 INFO 16769 [egg-mongoose] start successfully and server status is ok
+2017-07-25 17:07:54,372 WARN 16769 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:08:06,010 INFO 16831 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 17:08:06,298 INFO 16831 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 17:08:06,342 INFO 16831 [egg-mongoose] starting...
+2017-07-25 17:08:06,354 INFO 16831 [egg-watcher:agent] watcher start success
+2017-07-25 17:08:06,374 INFO 16831 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 17:08:06,375 INFO 16831 [egg-mongoose] start successfully and server status is ok
+2017-07-25 17:08:39,878 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:18:36,733 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 17:19:11,792 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:19:13,613 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:19:33,501 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:19:49,157 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/io/middleware/auth.js change
+2017-07-25 17:23:08,371 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:24:18,965 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:24:24,348 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:25:07,127 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:25:18,507 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/router.js change
+2017-07-25 17:25:52,303 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:26:09,530 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:27:29,692 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:27:47,684 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:35:28,127 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:37:29,104 WARN 16831 [agent:development] reload worker because /Users/joe/svn/eggtrade/app/controller/home.js change
+2017-07-25 17:49:58,740 INFO 18396 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade1/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 17:49:59,207 INFO 18396 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 17:49:59,257 INFO 18396 [egg-mongoose] starting...
+2017-07-25 17:49:59,275 INFO 18396 [egg-watcher:agent] watcher start success
+2017-07-25 17:49:59,297 INFO 18396 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 17:49:59,298 INFO 18396 [egg-mongoose] start successfully and server status is ok
+2017-07-25 17:59:00,842 WARN 18396 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/controller/home.js change
+2017-07-25 17:59:52,945 WARN 18396 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/router.js change
+2017-07-25 18:00:02,010 WARN 18396 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/io/controller/sayhi.js rename
+2017-07-25 18:00:56,575 WARN 18396 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/router.js change
+2017-07-25 18:01:01,047 WARN 18396 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/io/controller/chat.js rename
+2017-07-25 18:01:16,424 WARN 18396 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/router.js change
+2017-07-25 18:01:25,138 WARN 18396 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/router.js change
+2017-07-25 18:02:09,942 WARN 18396 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/controller/home.js change
+2017-07-25 18:02:17,182 INFO 18837 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade1/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 18:02:17,486 INFO 18837 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2017-07-25 18:02:17,529 INFO 18837 [egg-mongoose] starting...
+2017-07-25 18:02:17,540 INFO 18837 [egg-watcher:agent] watcher start success
+2017-07-25 18:02:17,559 INFO 18837 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2017-07-25 18:02:17,560 INFO 18837 [egg-mongoose] start successfully and server status is ok
+2017-07-25 18:06:06,686 INFO 19010 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade1/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 18:06:06,779 INFO 19010 [egg-watcher:agent] watcher start success
+2017-07-25 18:07:41,228 WARN 19010 [agent:development] reload worker because /Users/joe/svn/eggtrade1/config/config.default.js change
+2017-07-25 18:07:58,458 INFO 19108 [egg:logger] init all loggers with options: {"dir":"/Users/joe/svn/eggtrade1/logs/trade","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"trade-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-25 18:07:58,543 INFO 19108 [egg-watcher:agent] watcher start success
+2017-07-25 18:13:28,590 WARN 19108 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/controller/home.js change
+2017-07-25 18:13:32,642 WARN 19108 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/controller/home.js change
+2017-07-25 18:13:33,746 WARN 19108 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/controller/home.js change
+2017-07-25 18:13:34,427 WARN 19108 [agent:development] reload worker because /Users/joe/svn/eggtrade1/app/controller/home.js change
